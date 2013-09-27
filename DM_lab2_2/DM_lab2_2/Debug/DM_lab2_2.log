@@ -1,0 +1,32 @@
+﻿Построение начато 27.09.2013 9:47:35.
+     1>Проект "D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab2_2\DM_lab2_2\DM_lab2_2.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\DM_lab2_2.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DM_lab2_2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt DM_lab2_2.cpp /clr:nostdlib 
+         DM_lab2_2.cpp
+         Для всех выходных данных обновления не требуется.
+       CoreResGen:
+         Для всех выходных данных обновления не требуется.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab2_2\Debug\DM_lab2_2.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\DM_lab2_2.Form1.resources /MANIFEST /ManifestFile:"Debug\DM_lab2_2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab2_2\Debug\DM_lab2_2.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\DM_lab2_2.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         DM_lab2_2.vcxproj -> D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab2_2\Debug\DM_lab2_2.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab2_2\Debug\DM_lab2_2.exe;#1" /manifest Debug\DM_lab2_2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\DM_lab2_2.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\DM_lab2_2.lastbuildstate".
+     1>Построение проекта "D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab2_2\DM_lab2_2\DM_lab2_2.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.40
