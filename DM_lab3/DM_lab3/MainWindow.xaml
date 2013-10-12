@@ -1,0 +1,28 @@
+﻿<Window x:Class="DM_lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Height="29">
+                <Label Content="Размер 1-го множества" Height="28" Name="blbA" Width="145" />
+                <TextBox Height="23" Name="tbSizeA" Width="64" />
+                <Button Content="Сгенерировать" Height="24" Name="generateA" Width="102" Margin="2" Padding="2" Click="generateA_Click" />
+            </StackPanel>
+            <StackPanel Height="29" Orientation="Horizontal">
+                <Label Content="Размер 2-го множества" Height="28" Name="lblB" Width="146" />
+                <TextBox Height="23" Name="tbSizeB" Width="64" />
+                <Button Content="Сгенерировать" Height="24" Name="generateB" Width="102" Margin="2" Padding="2" Click="generateB_Click" />
+            </StackPanel>
+            <Label Content="Множество А:" Height="28" Name="lblViewA" />
+            <Label Content="Множество В:" Height="28" Name="lblViewB" />
+            <DockPanel>
+                <Label Content="Выберете действие: " Height="28" Name="lblAction" />
+                <ComboBox Height="23" Name="cbAction" SelectionChanged="cbAction_SelectionChanged" />
+            </DockPanel>
+            <DataGrid Name="dgTable" ItemsSource="{Binding}" AutoGenerateColumns="True"/>
+            <Label Content="Label" Height="210" Name="label1" />
+        </StackPanel>
+        <DockPanel Height="100" HorizontalAlignment="Left" Margin="138,398,0,0" Name="dockPanel1" VerticalAlignment="Top" Width="200" />
+    </Grid>
+</Window>
