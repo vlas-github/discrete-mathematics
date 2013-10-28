@@ -1,0 +1,9 @@
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\DM_lab5.Form1.resources
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\DM_lab5.Properties.Resources.resources
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\bin\Debug\DM_lab5.exe
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\bin\Debug\DM_lab5.pdb
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\DM_lab5.exe
+D:\Дурь\Дискретная математика\Лабораторные работы\DM\DM_lab5\DM_lab5\obj\x86\Debug\DM_lab5.pdb
