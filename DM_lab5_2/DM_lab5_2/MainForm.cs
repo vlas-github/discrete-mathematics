@@ -30,6 +30,8 @@ namespace DM_lab5_2
             toolTip1.SetToolTip(btnPierceArrow, "Стрелка Пирса");
             toolTip1.SetToolTip(btnShefferStroke, "Штрих Шеффера");
             toolTip1.SetToolTip(btnUnion, "Дезъюнкция");
+
+            tbOriginalFunction.Text = "(AᐯB)ᐱ(¬BᐯC)⊕(A↔C)⊕(B→¬C)";
         }
 
         private void btnCLEAR_Click(object sender, EventArgs e)
@@ -216,20 +218,6 @@ namespace DM_lab5_2
             initializeDataGridView(var);
 
             calculusExpression(pn);
-
-
-
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolTip1_Popup(object sender, PopupEventArgs e)
-        {
-
         }
     }
 }

@@ -35,6 +35,9 @@
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.gbInput = new System.Windows.Forms.GroupBox();
+            this.pnlOther = new System.Windows.Forms.Panel();
+            this.gbPriorityOperations = new System.Windows.Forms.GroupBox();
+            this.rtbPriorityOperations = new System.Windows.Forms.RichTextBox();
             this.gbOperation = new System.Windows.Forms.GroupBox();
             this.flpOperation = new System.Windows.Forms.FlowLayoutPanel();
             this.btnA = new System.Windows.Forms.Button();
@@ -61,23 +64,20 @@
             this.btnFALSE = new System.Windows.Forms.Button();
             this.btnBackspace = new System.Windows.Forms.Button();
             this.btnCLEAR = new System.Windows.Forms.Button();
+            this.btnCalculus = new System.Windows.Forms.Button();
             this.tbOriginalFunction = new System.Windows.Forms.TextBox();
             this.lblOriginalFunction = new System.Windows.Forms.Label();
             this.gbTableTrue = new System.Windows.Forms.GroupBox();
             this.dgvTableTrue = new System.Windows.Forms.DataGridView();
-            this.btnCalculus = new System.Windows.Forms.Button();
-            this.pnlOther = new System.Windows.Forms.Panel();
-            this.gbPriorityOperations = new System.Windows.Forms.GroupBox();
-            this.rtbPriorityOperations = new System.Windows.Forms.RichTextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pnlTitle.SuspendLayout();
             this.gbInput.SuspendLayout();
+            this.pnlOther.SuspendLayout();
+            this.gbPriorityOperations.SuspendLayout();
             this.gbOperation.SuspendLayout();
             this.flpOperation.SuspendLayout();
             this.gbTableTrue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTableTrue)).BeginInit();
-            this.pnlOther.SuspendLayout();
-            this.gbPriorityOperations.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTitle
@@ -150,6 +150,39 @@
             this.gbInput.TabIndex = 1;
             this.gbInput.TabStop = false;
             this.gbInput.Text = "Входные данные:";
+            // 
+            // pnlOther
+            // 
+            this.pnlOther.Controls.Add(this.gbPriorityOperations);
+            this.pnlOther.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlOther.Location = new System.Drawing.Point(5, 220);
+            this.pnlOther.Name = "pnlOther";
+            this.pnlOther.Size = new System.Drawing.Size(270, 126);
+            this.pnlOther.TabIndex = 3;
+            // 
+            // gbPriorityOperations
+            // 
+            this.gbPriorityOperations.Controls.Add(this.rtbPriorityOperations);
+            this.gbPriorityOperations.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gbPriorityOperations.Location = new System.Drawing.Point(0, 0);
+            this.gbPriorityOperations.Name = "gbPriorityOperations";
+            this.gbPriorityOperations.Padding = new System.Windows.Forms.Padding(6);
+            this.gbPriorityOperations.Size = new System.Drawing.Size(146, 126);
+            this.gbPriorityOperations.TabIndex = 0;
+            this.gbPriorityOperations.TabStop = false;
+            this.gbPriorityOperations.Text = "Приоритеты операций:";
+            // 
+            // rtbPriorityOperations
+            // 
+            this.rtbPriorityOperations.BackColor = System.Drawing.SystemColors.Control;
+            this.rtbPriorityOperations.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbPriorityOperations.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtbPriorityOperations.Location = new System.Drawing.Point(6, 19);
+            this.rtbPriorityOperations.Name = "rtbPriorityOperations";
+            this.rtbPriorityOperations.ReadOnly = true;
+            this.rtbPriorityOperations.Size = new System.Drawing.Size(134, 101);
+            this.rtbPriorityOperations.TabIndex = 1;
+            this.rtbPriorityOperations.Text = "1. ()\n2. ¬\n3. ˄\n4. ˅, ⊕\n5.  →, ←\n6. ↔ \n7. ↓, |";
             // 
             // gbOperation
             // 
@@ -483,6 +516,16 @@
             this.btnCLEAR.UseVisualStyleBackColor = true;
             this.btnCLEAR.Click += new System.EventHandler(this.btnCLEAR_Click);
             // 
+            // btnCalculus
+            // 
+            this.btnCalculus.Location = new System.Drawing.Point(3, 119);
+            this.btnCalculus.Name = "btnCalculus";
+            this.btnCalculus.Size = new System.Drawing.Size(256, 23);
+            this.btnCalculus.TabIndex = 24;
+            this.btnCalculus.Text = "Построить таблицу истинности";
+            this.btnCalculus.UseVisualStyleBackColor = true;
+            this.btnCalculus.Click += new System.EventHandler(this.btnCalculus_Click);
+            // 
             // tbOriginalFunction
             // 
             this.tbOriginalFunction.Dock = System.Windows.Forms.DockStyle.Top;
@@ -523,54 +566,6 @@
             this.dgvTableTrue.Size = new System.Drawing.Size(408, 328);
             this.dgvTableTrue.TabIndex = 0;
             // 
-            // btnCalculus
-            // 
-            this.btnCalculus.Location = new System.Drawing.Point(3, 119);
-            this.btnCalculus.Name = "btnCalculus";
-            this.btnCalculus.Size = new System.Drawing.Size(256, 23);
-            this.btnCalculus.TabIndex = 24;
-            this.btnCalculus.Text = "Построить таблицу истинности";
-            this.btnCalculus.UseVisualStyleBackColor = true;
-            this.btnCalculus.Click += new System.EventHandler(this.btnCalculus_Click);
-            // 
-            // pnlOther
-            // 
-            this.pnlOther.Controls.Add(this.gbPriorityOperations);
-            this.pnlOther.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlOther.Location = new System.Drawing.Point(5, 220);
-            this.pnlOther.Name = "pnlOther";
-            this.pnlOther.Size = new System.Drawing.Size(270, 126);
-            this.pnlOther.TabIndex = 3;
-            // 
-            // gbPriorityOperations
-            // 
-            this.gbPriorityOperations.Controls.Add(this.rtbPriorityOperations);
-            this.gbPriorityOperations.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gbPriorityOperations.Location = new System.Drawing.Point(0, 0);
-            this.gbPriorityOperations.Name = "gbPriorityOperations";
-            this.gbPriorityOperations.Padding = new System.Windows.Forms.Padding(6);
-            this.gbPriorityOperations.Size = new System.Drawing.Size(146, 126);
-            this.gbPriorityOperations.TabIndex = 0;
-            this.gbPriorityOperations.TabStop = false;
-            this.gbPriorityOperations.Text = "Приоритеты операций:";
-            // 
-            // rtbPriorityOperations
-            // 
-            this.rtbPriorityOperations.BackColor = System.Drawing.SystemColors.Control;
-            this.rtbPriorityOperations.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtbPriorityOperations.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbPriorityOperations.Location = new System.Drawing.Point(6, 19);
-            this.rtbPriorityOperations.Name = "rtbPriorityOperations";
-            this.rtbPriorityOperations.ReadOnly = true;
-            this.rtbPriorityOperations.Size = new System.Drawing.Size(134, 101);
-            this.rtbPriorityOperations.TabIndex = 1;
-            this.rtbPriorityOperations.Text = "1. ()\n2. ¬\n3. ˄\n4. ˅, ⊕\n5.  →, ←\n6. ↔ \n7. ↓, |";
-            this.rtbPriorityOperations.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
-            // toolTip1
-            // 
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -586,12 +581,12 @@
             this.pnlTitle.ResumeLayout(false);
             this.gbInput.ResumeLayout(false);
             this.gbInput.PerformLayout();
+            this.pnlOther.ResumeLayout(false);
+            this.gbPriorityOperations.ResumeLayout(false);
             this.gbOperation.ResumeLayout(false);
             this.flpOperation.ResumeLayout(false);
             this.gbTableTrue.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTableTrue)).EndInit();
-            this.pnlOther.ResumeLayout(false);
-            this.gbPriorityOperations.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
